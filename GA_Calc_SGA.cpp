@@ -181,7 +181,7 @@ void GA_Calc_SGA::initParameters() {
         thetab = -79.0;
         sigmaa = 22.3;
         sigmab = -3.0;		
-   	cm = 1;
+   	cm = 0.030;
 	a = a_inf(V0, thetaa, sigmaa);
 	b = b_inf(V0, thetab, sigmab);
 	period = RT::System::getInstance()->getPeriod() * 1e-6; // s
